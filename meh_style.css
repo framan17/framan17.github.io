@@ -1,16 +1,38 @@
 body {
   font-family: Arial, sans-serif;
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
-  background-color: rgb(225, 137, 166);
-  color: darkslategray;
+  margin: 0;
+  padding: 0;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 30, 0.45), rgba(0, 0, 45, 0.65)),
+    url("meh_images/blue_star.png");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  color: white;
 }
 
 header {
+  max-width: 900px;
+  margin: 30px auto 0 auto;
+  padding: 25px;
+
   text-align: center;
-  padding: 20px;
-  background-color: mistyrose;
+
+  background: rgba(10, 18, 70, 0.70);
+  border: 2px solid gold;
+  border-radius: 20px;
+}
+
+main {
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 30px;
+
+  background: rgba(8, 12, 55, 0.72);
+  border-radius: 20px;
 }
 
 nav ul {
@@ -20,43 +42,61 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin: 10px;
+  margin: 10px 18px;
 }
 
 nav a {
-  color: darkmagenta;
+  color: gold;
   font-weight: bold;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 nav a:hover {
-  color: purple;
-  text-decoration: underline;
+  color: white;
+  text-shadow: 0 0 12px gold;
+}
+
+h1,
+h2,
+h3 {
+  color: gold;
 }
 
 img {
   display: block;
   max-width: 100%;
   margin: 20px auto;
+
   border-radius: 20px;
+  border: 3px solid gold;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.35);
 }
 
 .cat-card {
-  margin: 20px 0;
+  margin: 25px 0;
   padding: 20px;
-  background-color: white;
-  border: 3px solid plum;
-  border-radius: 15px;
+
+  background: rgba(255,255,255,0.10);
+  border: 2px solid rgba(255,215,0,0.45);
+  border-radius: 18px;
+
+  backdrop-filter: blur(4px);
 }
 
 .year {
-  color: darkmagenta;
+  color: #ffd54d;
   font-weight: bold;
 }
 
 footer {
-  margin-top: 30px;
-  padding: 15px;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+
   text-align: center;
-  background-color: mistyrose;
+
+  background: rgba(10,18,70,0.70);
+  border: 2px solid gold;
+  border-radius: 20px;
 }
