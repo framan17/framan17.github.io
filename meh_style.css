@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(225, 137, 166);
+  color: darkslategray;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: mistyrose;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px;
+}
+
+nav a {
+  color: darkmagenta;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.cat-card {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: white;
+  border: 3px solid plum;
+  border-radius: 15px;
+}
+
+.year {
+  color: darkmagenta;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  text-align: center;
+  background-color: mistyrose;
+}
