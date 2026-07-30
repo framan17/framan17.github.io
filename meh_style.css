@@ -1,0 +1,301 @@
+/* ===========================
+   Whole Page
+   =========================== */
+
+body {
+
+  /* Sets the font for the whole website */
+  font-family: Arial, sans-serif;
+
+  /* Removes the default space around the page */
+  margin: 0;
+
+  /* Removes the default inside spacing */
+  padding: 0;
+
+  /* Adds a dark fade over my star background */
+  background-image:
+    linear-gradient(rgba(0, 0, 30, 0.45), rgba(0, 0, 45, 0.65)),
+    url("https://github.com/framan17/framan17.github.io/blob/main/meh_images/blue_star.png?raw=true");
+
+  /* Makes the picture fill the screen */
+  background-size: cover;
+
+  /* Keeps the picture centered */
+  background-position: center;
+
+  /* Keeps the background still while scrolling */
+  background-attachment: fixed;
+
+  /* Makes all the text white */
+  color: white;
+}
+
+
+/* ===========================
+   Header
+   =========================== */
+
+header {
+
+  /* Keeps the header from getting too wide */
+  max-width: 900px;
+
+  /* Centers the header */
+  margin: 30px auto 0 auto;
+
+  /* Adds space inside the header */
+  padding: 25px;
+
+  /* Centers the text */
+  text-align: center;
+
+  /* Gives the header a see-through blue background */
+  background: rgba(10, 18, 70, 0.70);
+
+  /* Adds a gold border */
+  border: 2px solid gold;
+
+  /* Rounds the corners */
+  border-radius: 20px;
+}
+
+
+/* ===========================
+   Main Content
+   =========================== */
+
+main {
+
+  /* Makes the main section the same width as the header */
+  max-width: 900px;
+
+  /* Centers the main section */
+  margin: 25px auto;
+
+  /* Adds space inside the section */
+  padding: 30px;
+
+  /* Makes the background slightly transparent */
+  background: rgba(8, 12, 55, 0.72);
+
+  /* Rounds the corners */
+  border-radius: 20px;
+}
+
+
+/* ===========================
+   Navigation Menu
+   =========================== */
+
+/* Removes the bullet points */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Places the menu items across the page */
+nav li {
+  display: inline-block;
+  margin: 10px 18px;
+}
+
+/* Styles the navigation links */
+nav a {
+
+  /* Makes the links gold */
+  color: gold;
+
+  /* Makes the words bold */
+  font-weight: bold;
+
+  /* Removes the underline */
+  text-decoration: none;
+
+  /* Makes hover effects smooth */
+  transition: 0.3s;
+}
+
+/* Changes the links when the mouse is over them */
+nav a:hover {
+
+  /* Turns the text white */
+  color: white;
+
+  /* Gives the links a glowing effect */
+  text-shadow: 0 0 12px gold;
+}
+
+
+/* ===========================
+   Headings
+   =========================== */
+
+/* Makes all headings gold */
+h1,
+h2,
+h3 {
+  color: gold;
+}
+
+
+/* ===========================
+   Images
+   =========================== */
+
+img {
+
+  /* Centers every image */
+  display: block;
+
+  /* Stops images from being too large */
+  max-width: 100%;
+
+  /* Adds space around the image */
+  margin: 20px auto;
+
+  /* Rounds the corners */
+  border-radius: 20px;
+
+  /* Adds a gold border */
+  border: 3px solid gold;
+
+  /* Gives the image a soft glow */
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.35);
+}
+
+
+/* ===========================
+   Cat Cards
+   =========================== */
+
+.cat-card {
+
+  /* Adds space between the cards */
+  margin: 25px 0;
+
+  /* Adds space inside each card */
+  padding: 20px;
+
+  /* Makes the card slightly transparent */
+  background: rgba(255,255,255,0.10);
+
+  /* Adds a light gold border */
+  border: 2px solid rgba(255,215,0,0.45);
+
+  /* Rounds the corners */
+  border-radius: 18px;
+
+  /* Blurs the background behind the card */
+  backdrop-filter: blur(4px);
+}
+
+
+/* Makes the year stand out */
+.year {
+
+  /* Changes the year to gold */
+  color: #ffd54d;
+
+  /* Makes the year bold */
+  font-weight: bold;
+}
+
+
+/* ===========================
+   Footer
+   =========================== */
+
+footer {
+
+  /* Keeps the footer the same width as the page */
+  max-width: 900px;
+
+  /* Centers the footer */
+  margin: 30px auto;
+
+  /* Adds space inside */
+  padding: 20px;
+
+  /* Centers the text */
+  text-align: center;
+
+  /* Gives the footer the same transparent blue background */
+  background: https://github.com/framan17/framan17.github.io/blob/main/meh_images/blue_star.png?raw=true 
+
+  /* Adds a gold border */
+  border: 2px solid gold;
+
+  /* Rounds the corners */
+  border-radius: 20px;
+}
+
+
+/* ===========================
+   JavaScript Button
+   =========================== */
+
+/* Styles the button that starts the dream */
+#magicButton {
+
+    /* Centers the button */
+    display: block;
+
+    /* Adds space around it */
+    margin: 20px auto;
+
+    /* Makes the button bigger */
+    padding: 12px 24px;
+
+    /* Gives it a transparent gold background */
+    background-color: rgba(255,215,0,.2);
+
+    /* Makes the text gold */
+    color: gold;
+
+    /* Adds a gold border */
+    border: 2px solid gold;
+
+    /* Rounds the button */
+    border-radius: 25px;
+
+    /* Makes the text larger */
+    font-size: 18px;
+
+    /* Changes the mouse to a hand */
+    cursor: pointer;
+
+    /* Makes the hover effect smooth */
+    transition: 0.3s;
+}
+
+
+/* Changes the button when the mouse is over it */
+#magicButton:hover {
+
+    /* Makes the button gold */
+    background-color: gold;
+
+    /* Changes the text color */
+    color: midnightblue;
+
+    /* Makes the bu636tton slightly bigger */
+    transform: scale(1.05);
+}
+
+
+/* This is where the JavaScript writes the message */
+#dreamMessage {
+
+    /* Centers the message */
+    text-align: center;
+
+    /* Makes the text larger */
+    font-size: 22px;
+
+    /* Makes the text gold */
+    color: gold;
+
+    /* Saves space even before the message appears */
+    min-height: 35px;
+}
