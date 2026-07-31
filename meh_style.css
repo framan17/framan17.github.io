@@ -299,3 +299,41 @@ footer {
     /* Saves space even before the message appears */
     min-height: 35px;
 }
+
+/* Decade buttons */
+.decade-buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.decade-buttons button {
+  margin: 5px;
+  padding: 10px 16px;
+  background-color: rgba(255, 215, 0, 0.2);
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.decade-buttons button:hover {
+  background-color: gold;
+  color: midnightblue;
+}
+
+
+/* Picture holder inside each cat card */
+.cat-picture {
+  width: 250px;
+  min-height: 180px;
+  margin: 15px auto;
+  border: 2px dashed gold;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.cat-picture img {
+  width: 100%;
+  margin: 0;
+  border: none;
+}

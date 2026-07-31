@@ -15,3 +15,22 @@ button.addEventListener("click", function () {
     button.style.display = "none";
 
 });
+
+/*make the cats show up by decade */
+function showDecade(decade) {
+
+  // Find every cat card
+  const cats = document.querySelectorAll(".cat-card");
+
+  // Hide all cat cards
+  cats.forEach(function(cat) {
+    cat.style.display = "none";
+  });
+
+  // Show only the selected decade
+  const selectedCats = document.querySelectorAll("." + decade);
+
+  selectedCats.forEach(function(cat) {
+    cat.style.display = "block";
+  });
+}
