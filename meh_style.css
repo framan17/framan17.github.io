@@ -16,11 +16,7 @@ body {
   /* Adds a dark fade over my star background */
   background-image:
     linear-gradient(rgba(0, 0, 30, 0.45), rgba(0, 0, 45, 0.65)),
-<<<<<<< HEAD
-    url("https://github.com/framan17/framan17.github.io/blob/main/meh_images/blue_star.png?raw=true");
-=======
     url("meh_images/blue_star.png");
->>>>>>> d2be66c5139d046faa49c902078965bdbfbc6e00
 
   /* Makes the picture fill the screen */
   background-size: cover;
@@ -225,11 +221,7 @@ footer {
   text-align: center;
 
   /* Gives the footer the same transparent blue background */
-<<<<<<< HEAD
-  background: https://github.com/framan17/framan17.github.io/blob/main/meh_images/blue_star.png?raw=true 
-=======
-  background: rgba(10,18,70,0.70);
->>>>>>> d2be66c5139d046faa49c902078965bdbfbc6e00
+  /*background: https://github.com/framan17/framan17.github.io/blob/main/meh_images/blue_star.png?raw=true */
 
   /* Adds a gold border */
   border: 2px solid gold;
@@ -287,11 +279,7 @@ footer {
     /* Changes the text color */
     color: midnightblue;
 
-<<<<<<< HEAD
     /* Makes the bu636tton slightly bigger */
-=======
-    /* Makes the button slightly bigger */
->>>>>>> d2be66c5139d046faa49c902078965bdbfbc6e00
     transform: scale(1.05);
 }
 
